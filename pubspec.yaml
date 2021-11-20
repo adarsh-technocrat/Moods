@@ -3,7 +3,7 @@ description: A new Flutter project.
 
 # The following line prevents the package from being accidentally published to
 # pub.dev using `pub publish`. This is preferred for private packages.
-publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
 
 # The following defines the version and build number for your application.
 # A version number is three numbers separated by dots, like 1.2.43
@@ -18,16 +18,17 @@ publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 version: 1.0.0+1
 
 environment:
-  sdk: ">=2.12.0 <3.0.0"
+  sdk: ">=2.11.0 <3.0.0"
 
 dependencies:
   flutter:
     sdk: flutter
 
-
-  # The following adds the Cupertino Icons font to your application.
-  # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
+  provider: ^6.0.0
+  url_launcher: any
+  google_fonts: ^2.1.0
+  flutter_svg: ^0.19.3
 
 dev_dependencies:
   flutter_test:
@@ -38,15 +39,14 @@ dev_dependencies:
 
 # The following section is specific to Flutter.
 flutter:
-
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
   # the material Icons class.
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  # assets:
-  #   - images/a_dot_burr.jpeg
+  assets:
+    - asstes/images/
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
@@ -60,17 +60,51 @@ flutter:
   # "family" key with the font family name, and a "fonts" key with a
   # list giving the asset and other descriptors for the font. For
   # example:
-  # fonts:
-  #   - family: Schyler
-  #     fonts:
-  #       - asset: fonts/Schyler-Regular.ttf
-  #       - asset: fonts/Schyler-Italic.ttf
-  #         style: italic
-  #   - family: Trajan Pro
-  #     fonts:
-  #       - asset: fonts/TrajanPro.ttf
-  #       - asset: fonts/TrajanPro_Bold.ttf
-  #         weight: 700
-  #
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: asstes/fonts/Poppins/Poppins-Black.ttf
+        - asset: asstes/fonts/Poppins/Poppins-BlackItalic.ttf
+          style: italic
+        - asset: asstes/fonts/Poppins/Poppins-Thin.ttf
+          weight: 100
+        - asset: asstes/fonts/Poppins/Poppins-ThinItalic.ttf
+          weight: 100
+          style: italic
+        - asset: asstes/fonts/Poppins/Poppins-ExtraLight.ttf
+          weight: 200
+        - asset: asstes/fonts/Poppins/Poppins-ExtraLightItalic.ttf
+          weight: 200
+          style: italic
+        - asset: asstes/fonts/Poppins/Poppins-Italic.ttf
+          style: italic
+        - asset: asstes/fonts/Poppins/Poppins-Light.ttf
+          weight: 300
+        - asset: asstes/fonts/Poppins/Poppins-LightItalic.ttf
+          weight: 300
+          style: italic
+        - asset: asstes/fonts/Poppins/Poppins-Regular.ttf
+          weight: 400
+        - asset: asstes/fonts/Poppins/Poppins-Medium.ttf
+          weight: 500
+        - asset: asstes/fonts/Poppins/Poppins-MediumItalic.ttf
+          weight: 500
+          style: italic
+        - asset: asstes/fonts/Poppins/Poppins-SemiBold.ttf
+          weight: 600
+        - asset: asstes/fonts/Poppins/Poppins-SemiBoldItalic.ttf
+          weight: 600
+          style: italic
+        - asset: asstes/fonts/Poppins/Poppins-Bold.ttf
+          weight: 700
+        - asset: asstes/fonts/Poppins/Poppins-BoldItalic.ttf
+          weight: 700
+          style: italic
+        - asset: asstes/fonts/Poppins/Poppins-ExtraBold.ttf
+          weight: 800
+        - asset: asstes/fonts/Poppins/Poppins-ExtraBoldItalic.ttf
+          weight: 800
+          style: italic
+
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
