@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:moods/components/AmbientNatureSound/ambientNatureSound.dart';
 import 'package:moods/components/BuyMeACoffeeComponent/buyMeACoffeeWidget.dart';
 import 'package:moods/components/BuyMeACoffeeComponent/buyMeCoffeeThemeData.dart';
 import 'package:moods/components/customMoodButtons.dart';
@@ -63,9 +64,7 @@ class HomePage extends StatelessWidget {
         ),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            CustomMoodButtons(),
-          ],
+          children: [CustomMoodButtons(), AmbientNatureSound()],
         ),
       ),
     );
