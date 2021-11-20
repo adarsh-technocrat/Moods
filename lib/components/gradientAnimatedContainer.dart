@@ -3,8 +3,9 @@ import 'package:flutter/material.dart';
 class GradientAnimatedContainer extends StatefulWidget {
   final Widget child;
   final bool isSelected;
+  final Key key;
 
-  const GradientAnimatedContainer({Key key, this.isSelected, this.child})
+  const GradientAnimatedContainer({this.isSelected, this.key, this.child})
       : super(key: key);
 
   @override
@@ -28,8 +29,8 @@ class _GradientAnimatedContainerState extends State<GradientAnimatedContainer> {
     Alignment.topLeft,
   ];
   int index = 0;
-  Color bottomColor = Colors.red;
-  Color topColor = Colors.yellow;
+  Color bottomColor = Color(0xff12bcfe);
+  Color topColor = Color(0xff12bcfe);
   Alignment begin = Alignment.centerLeft;
   Alignment end = Alignment.centerLeft;
 
@@ -43,7 +44,7 @@ class _GradientAnimatedContainerState extends State<GradientAnimatedContainer> {
       });
 
     return Padding(
-      padding: const EdgeInsets.all(16.0),
+      padding: const EdgeInsets.only(left: 16, right: 16, bottom: 8),
       child: AnimatedContainer(
         decoration: widget.isSelected
             ? BoxDecoration(

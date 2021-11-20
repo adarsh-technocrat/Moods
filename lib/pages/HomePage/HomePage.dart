@@ -56,18 +56,20 @@ class HomePage extends StatelessWidget {
           ),
         ],
       ),
-      body: Container(
-        width: MediaQuery.of(context).size.width,
-        decoration: BoxDecoration(
-          image: DecorationImage(
-              image: AssetImage("asstes/images/backgroundImage.png"),
-              fit: BoxFit.cover,
-              colorFilter: ColorFilter.mode(
-                  Constants.kBackgroundFilterColor, BlendMode.exclusion)),
-        ),
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [CustomMoodButtons(), AmbientNatureSound()],
+      body: SingleChildScrollView(
+        child: Container(
+          width: MediaQuery.of(context).size.width,
+          decoration: BoxDecoration(
+            image: DecorationImage(
+                image: AssetImage("asstes/images/backgroundImage.png"),
+                fit: BoxFit.cover,
+                colorFilter: ColorFilter.mode(
+                    Constants.kBackgroundFilterColor, BlendMode.exclusion)),
+          ),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [CustomMoodButtons(), AmbientNatureSound()],
+          ),
         ),
       ),
     );

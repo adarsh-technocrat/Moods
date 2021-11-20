@@ -30,8 +30,8 @@ dependencies:
   google_fonts: ^2.1.0
   flutter_svg: ^0.19.3
   fluttertoast: ^8.0.8
-  just_audio: ^0.9.18
-  audioplayers: any
+  uuid: ^3.0.5
+  audioplayers: ^0.20.1
 
 dev_dependencies:
   flutter_test:
@@ -51,7 +51,7 @@ flutter:
   assets:
     - asstes/images/
     - asstes/data/
-    - asstes/Sound Effects/
+    - asstes/SoundEffects/
     - asstes/icons/
   #   - images/a_dot_ham.jpeg
 
