@@ -1,16 +1,51 @@
-# moods
 
-A new Flutter project.
+<h1 align="center">Moods - Relax and focus on work through ambient nature sound ✨️</h4>
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+### Introducing Moods ✌️
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+## 🚀 Demo
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+## 🧐 Features
+
+## 🛠️ Installation Steps
+
+## 🍰 Contributing
+
+## 💻 Built with
+
+## 🌈 What's next
+
+## 🛡️ License
+
+This project is licensed under the MIT License - see the [`LICENSE`](LICENSE) file for details.
+
+## 🦄 Deploy
+
+## 👨‍💻 Author
+
+### 👤 Adarsh Kumar Singh
+
+- Twitter: [@adarshKumar865](https://twitter.com/adarshKumar865)
+- Github: [@adarsh-technocrat](https://github.com/adarsh-technocrat)
+
+## 💪 Thanks to the all Contributors
+
+Thanks a lot for spending your time in helping code house grow and help many developers. Thanks a lot! Keep rocking 🍻
+
+Also, check them on ..
+
+## 🙏 Support
+
+This project needs a ⭐️ from you. Don't forget to leave a star ⭐️
+
+If you found the app helpful, consider supporting me with a coffee.
+
+<a href="https://www.buymeacoffee.com/AdarshKumar" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
+---
+
+<h3 align="center">
+Mood needs a ⭐️ from you
+</h3>
