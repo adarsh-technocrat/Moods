@@ -1,5 +1,5 @@
 
-<h1 align="center">Moods - Relax and focus on work through ambient nature sound ✨️</h4>
+<h1 align="center">Moods - Relax and focus on work through ambient nature sound App✨️</h4>
 
 <img align="center" src="https://user-images.githubusercontent.com/47661086/142740506-c616194f-be05-48b8-9013-918fc4218523.png" width="100%"/>
   
