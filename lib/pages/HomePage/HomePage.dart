@@ -15,43 +15,46 @@ class HomePage extends StatelessWidget {
         backgroundColor: Colors.white,
         elevation: 0,
         title: Text(
-          "Mood 😊",
+          "Moodes",
           style: TextStyle(
             fontSize: 22,
             fontWeight: FontWeight.w600,
             color: Constants.kPrimaryColor,
           ),
         ),
-        actions: [
+      ),
+      floatingActionButton: Column(
+        mainAxisSize: MainAxisSize.min,
+        children: [
           Padding(
             padding: const EdgeInsets.all(8.0),
             child: Container(
-              width: 60,
+              width: 50,
               child: BuyMeACoffeeWidget(
                 sponsorID: "AdarshKumar",
                 theme: BlueTheme(),
               ),
             ),
-          )
-        ],
-      ),
-      floatingActionButton: FloatingActionButton(
-        backgroundColor: Colors.white,
-        onPressed: () {},
-        child: Container(
-          decoration: BoxDecoration(
-              borderRadius: BorderRadius.circular(50),
-              border: Border.all(
-                color: Constants.kBlueColor,
-                width: 2,
-              )),
-          child: Center(
-            child: Icon(
-              Icons.shuffle,
-              color: Constants.kBlueColor,
+          ),
+          FloatingActionButton(
+            backgroundColor: Colors.white,
+            onPressed: () {},
+            child: Container(
+              decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(50),
+                  border: Border.all(
+                    color: Constants.kBlueColor,
+                    width: 2,
+                  )),
+              child: Center(
+                child: Icon(
+                  Icons.shuffle,
+                  color: Constants.kBlueColor,
+                ),
+              ),
             ),
           ),
-        ),
+        ],
       ),
       body: Container(
         width: MediaQuery.of(context).size.width,

@@ -23,33 +23,38 @@ class _CustomMoodButtonsState extends State<CustomMoodButtons> {
     return Consumer<ReadJsonDataProvider>(builder: (context, provider, child) {
       if (provider.items != null) {
         var items = provider.items.items;
-        return Container(
-          child: Row(
-              children: List.generate(
-                  items.length,
-                  (index) => Padding(
-                        padding: const EdgeInsets.all(8.0),
-                        child: ElevatedButton(
-                          onPressed: () {
-                            print(items[index].title);
-                          },
-                          style: ElevatedButton.styleFrom(
-                              primary: Colors.white.withOpacity(0.9),
-                              side: BorderSide(
-                                color: Constants.kBlueColor,
-                                width: 1,
-                              )),
-                          child: Padding(
-                            padding: const EdgeInsets.all(5.0),
-                            child: Center(
-                              child: Text(
-                                items[index].title,
-                                style: TextStyle(color: Constants.kBlueColor),
+        return Padding(
+          padding: const EdgeInsets.only(left: 20, right: 20),
+          child: Container(
+            child: Row(
+                children: List.generate(
+                    items.length,
+                    (index) => Padding(
+                          padding: const EdgeInsets.all(8.0),
+                          child: ElevatedButton(
+                            onPressed: () {
+                              print(items[index].title);
+                            },
+                            style: ElevatedButton.styleFrom(
+                                primary: Colors.white.withOpacity(0.9),
+                                side: BorderSide(
+                                  color: Constants.kBlueColor,
+                                  width: 1,
+                                )),
+                            child: Padding(
+                              padding: const EdgeInsets.all(5.0),
+                              child: Center(
+                                child: Text(
+                                  items[index].title,
+                                  style: TextStyle(
+                                      color: Constants.kBlueColor,
+                                      fontSize: 14),
+                                ),
                               ),
                             ),
                           ),
-                        ),
-                      ))),
+                        ))),
+          ),
         );
       }
       return Container();

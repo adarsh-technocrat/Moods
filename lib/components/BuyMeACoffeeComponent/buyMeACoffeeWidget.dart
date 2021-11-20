@@ -43,10 +43,10 @@ class BuyMeACoffeeWidget extends StatelessWidget {
         }
       },
       child: ConstrainedBox(
-        constraints: BoxConstraints(minWidth: 217.0),
+        constraints: BoxConstraints(minWidth: 200.0),
         child: Container(
           padding: EdgeInsets.symmetric(vertical: 7.0, horizontal: 10.0),
-          height: 51.0,
+          height: 50.0,
           decoration: BoxDecoration(
             color: backgroundColor,
             border: Border.all(color: Colors.transparent, width: 1.0),
@@ -58,15 +58,17 @@ class BuyMeACoffeeWidget extends StatelessWidget {
               )
             ],
             borderRadius: BorderRadius.all(
-              Radius.circular(5.0),
+              Radius.circular(50),
             ),
           ),
           child: Row(
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
-              SvgPicture.network(
-                "https://cdn.buymeacoffee.com/buttons/bmc-new-btn-logo.svg",
-                width: 35.0,
+              Flexible(
+                child: SvgPicture.network(
+                  "https://cdn.buymeacoffee.com/buttons/bmc-new-btn-logo.svg",
+                  width: 35.0,
+                ),
               ),
             ],
           ),

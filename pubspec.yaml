@@ -29,6 +29,8 @@ dependencies:
   url_launcher: any
   google_fonts: ^2.1.0
   flutter_svg: ^0.19.3
+  fluttertoast: ^8.0.8
+  just_audio: ^0.9.18
 
 dev_dependencies:
   flutter_test:
@@ -49,6 +51,7 @@ flutter:
     - asstes/images/
     - asstes/data/
     - asstes/Sound Effects/
+    - asstes/icons/
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
