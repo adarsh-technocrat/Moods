@@ -53,6 +53,7 @@ class HomePage extends StatelessWidget {
         ),
       ),
       body: Container(
+        width: MediaQuery.of(context).size.width,
         decoration: BoxDecoration(
           image: DecorationImage(
               image: AssetImage("asstes/images/backgroundImage.png"),
@@ -61,6 +62,7 @@ class HomePage extends StatelessWidget {
                   Constants.kBackgroundFilterColor, BlendMode.exclusion)),
         ),
         child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             CustomMoodButtons(),
           ],
