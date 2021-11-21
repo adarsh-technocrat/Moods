@@ -5,11 +5,15 @@
   
 
 
+###  Shoutout 
+
+A Big Shoutout to  [Savio Martin](https://twitter.com/saviomartin7) for making **[Moodly](moodly.site )** . This project is just a try for making the mobile version of the [Moodly](moodly.site ) 
+
+
 
 ### Introducing Moods ✌️
 
 ## 🚀 Demo
-
 
 ## 🧐 Features
 
